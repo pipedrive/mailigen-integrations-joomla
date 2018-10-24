@@ -1,0 +1,29 @@
+symlink
+
+# xml file
+
+ln -s /home/pagemonk5/joomla-components/com_mailigen/mailigen.xml /var/www/html/joomla/administrator/components/com_mailigen/mailigen.xml
+
+# admin comp
+
+mv /var/www/html/joomla/administrator/components/com_mailigen /var/www/html/joomla/administrator/components/com_mailigen--x
+
+ln -s /home/pagemonk5/joomla-components/com_mailigen/administrator /var/www/html/joomla/administrator/components/com_mailigen
+
+
+# admin lang files
+
+mv /var/www/html/joomla/administrator/language/en-GB/en-GB.com_mailigen.ini /var/www/html/joomla/administrator/language/en-GB/en-GB.com_mailigen--x.ini
+
+ln -s /home/pagemonk5/joomla-components/com_mailigen/administrator/languages/en-GB/en-GB.com_mailigen.ini /var/www/html/joomla/administrator/language/en-GB/en-GB.com_mailigen.ini
+
+
+# site comp
+
+mv /var/www/html/joomla/components/com_mailigen /var/www/html/joomla/components/com_mailigen--x
+
+ln -s ~/joomla-components/com_mailigen/site /var/www/html/joomla/components/com_mailigen
+
+
+
+

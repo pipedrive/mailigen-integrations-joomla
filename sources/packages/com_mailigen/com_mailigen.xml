@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+    <name>com_mailigen</name>
+    <creationDate>2018-09-27</creationDate>
+    <copyright>2010-2018 Mailigen. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <author>Mailigen</author>
+    <authorEmail>sales@mailigen.com</authorEmail>
+    <authorUrl>https://www.mailigen.com/</authorUrl>
+    <version>1.0.0</version>
+    <description></description>   
+
+    <scriptfile>script.com_mailigen.php</scriptfile>
+
+    <files folder="site">
+        <filename>index.html</filename>
+        <filename>mailigen.php</filename>
+        <filename>controller.php</filename>
+        <folder>models</folder>
+        <folder>views</folder>
+        <folder>controllers</folder>
+    </files>
+
+    <administration>
+        
+        <menu>COM_MAILIGEN</menu>
+
+       <!--  <submenu>
+            
+           <menu link="option=com_mailigen&amp;view=main" view="main" alt="Mailigen/main">COM_MAILIGEN_TITLE_DASHBOARD</menu>
+
+			<menu link="option=com_mailigen&amp;view=lists" view="lists" alt="Mailigen/Lists">COM_MAILIGEN_TITLE_LISTS</menu>
+
+        </submenu> -->
+
+        <files folder="administrator">
+            <filename>config.xml</filename>
+            <filename>controller.php</filename>
+            <filename>index.html</filename>
+            <filename>mailigen.php</filename>
+            <folder>controllers</folder>
+            <folder>libraries</folder>
+            <folder>helpers</folder>
+            <folder>models</folder>
+            <folder>views</folder>
+        </files>
+        <languages folder="administrator/languages">            
+			<language tag="en-GB">en-GB/en-GB.com_mailigen.ini</language>
+			<language tag="en-GB">en-GB/en-GB.com_mailigen.sys.ini</language>
+        </languages>
+    </administration>
+    
+</extension>

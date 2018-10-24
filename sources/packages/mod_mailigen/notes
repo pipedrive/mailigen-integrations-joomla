@@ -1,0 +1,17 @@
+symlink
+
+mv /var/www/html/joomla/modules/mod_mailigen /var/www/html/joomla/modules/mod_mailigen_x
+
+ln -s ~/joomla-modules/mod_mailigen /var/www/html/joomla/modules/mod_mailigen
+
+mv /var/www/html/joomla/media/mod_mailigen /var/www/html/joomla/media/mod_mailigen_x
+
+ln -s ~/joomla-modules/mod_mailigen/media /var/www/html/joomla/media/mod_mailigen
+
+mv /var/www/html/joomla/language/en-GB/en-GB.mod_mailigen.ini /var/www/html/joomla/language/en-GB/en-GB.mod_mailigen--x.ini
+
+ln -s ~/joomla-modules/mod_mailigen/language/en-GB/en-GB.mod_mailigen.ini /var/www/html/joomla/language/en-GB/en-GB.mod_mailigen.ini
+
+mv /var/www/html/joomla/language/en-GB/en-GB.mod_mailigen.sys.ini /var/www/html/joomla/language/en-GB/en-GB.mod_mailigen--x.sys.ini
+
+ln -s ~/joomla-modules/mod_mailigen/language/en-GB/en-GB.mod_mailigen.sys.ini /var/www/html/joomla/language/en-GB/en-GB.mod_mailigen.sys.ini

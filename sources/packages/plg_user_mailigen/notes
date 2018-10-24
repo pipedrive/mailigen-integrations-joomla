@@ -1,0 +1,11 @@
+symlink
+
+mv /var/www/html/joomla/plugins/user/mailigen /var/www/html/joomla/plugins/user/mailigen_x
+
+ln -s ~/joomla-plugins/plg_user_mailigen /var/www/html/joomla/plugins/user/mailigen
+
+mv /var/www/html/joomla/administrator/language/en-GB/en-GB.plg_user_mailigen.ini /var/www/html/joomla/administrator/language/en-GB/en-GB.plg_user_mailigen--x.ini
+
+ln -s ~/joomla-plugins/plg_user_mailigen/language/en-GB/en-GB.plg_user_mailigen.ini /var/www/html/joomla/administrator/language/en-GB/en-GB.plg_user_mailigen.ini
+
+ln -s ~/joomla-plugins/plg_user_mailigen/language/en-GB/en-GB.plg_user_mailigen.sys.ini /var/www/html/joomla/administrator/language/en-GB/en-GB.plg_user_mailigen.sys.ini
