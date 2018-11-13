@@ -2,7 +2,7 @@
 
 Mailigen Integration for Joomla helps you connect your site with the Mailigen seamlessly. Install this package and connect with Mailigen using an API key. You are all set to go. Your users can subscribe to your mailing list and registered users will be automatically added to Mailigen mailing lists. Configure once and manage all your newsletters in Mailigen itself. 
 
-(Documentation)[https://github.com/Mailigen/joomla_pkg/blob/master/docs/Docs-Mailigen_plugin_for_Joomla.pdf]
+[Documentation](https://github.com/Mailigen/joomla_pkg/blob/master/docs/Docs-Mailigen_plugin_for_Joomla.pdf)
 
 ### Features
 
