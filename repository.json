@@ -2,6 +2,6 @@
     "name": "mailigen-integrations-joomla",
     "description": "",
     "owner": "Rigas",
-    "type": "",
-    "status": ""
+    "type": "service",
+    "status": "released"
 }
